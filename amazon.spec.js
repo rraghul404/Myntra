@@ -1,5 +1,5 @@
 import {test} from '@playwright/test'
- test('Iphone 17',async({page})=>{
+ test('Iphone 16',async({page})=>{
     await page.goto("https://www.amazon.in");
     await page.locator ('//input[@id="twotabsearchtextbox"]').fill('iphone 17');
     await page.locator ('//input[@id="nav-search-submit-button"]').click('Enter');
